@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(to right, #6D2932, #d26876);
+        }
+        footer{
+            background-color: #6D2932;
+        }
+        .card-img-top {
+            aspect-ratio: 1/1;
+            object-fit: cover;
+        }
+        .card {
+            margin: 10%;
+        }
+        .head{
+            margin:8px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+            color:#EBD4CB;
+        }
+        .modal{
+            color:#d26876;
+        }
+        .modal button{
+            background-color: #d26876;
+            color:white;
+        }
+        input{
+            outline-color: #d26876;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-transparent nav-tabs" style="height: 7vh;">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="9_logo.png" alt="logo" width="45" height="40" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-bold" href="9_1.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-bold" href="9_2.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-bold fs-6" href="9_3.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <ul class="nav justify-content-center shadow" style="background-color: #EBD4CB;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Shaadi" style="color:#2C0703;">Shaadi season sale</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Winter" style="color:#2C0703;">Winter Sale</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#NewYear" style="color:#2C0703;">New Year sale</a>
+        </li>
+      </ul>
+    <section id="Shaadi">
+        <h2 class="head text-capitalize text-center fst-italic">Shaadi season sale collection</h2>
+        <div class="container h-100 d-flex align-items-center">
+            <div class="modal fade" id="f1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-capitalize" id="exampleModalLabel">Embroidered Top for women</h5>
+                    
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h5 class="card-text" style="margin:0px 10px 10px 0px;">₹3,800</h5>
+                        <div class="btn-group btn-group-sm" role="group" aria-label="Basic radio toggle button group" style="outline-color: #d26876;">
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio11" autocomplete="off" checked>
+                            <label class="btn" for="btnradio11">S</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio12" autocomplete="off">
+                            <label class="btn" for="btnradio12">M</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio13" autocomplete="off">
+                            <label class="btn" for="btnradio13">L</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio14" autocomplete="off">
+                            <label class="btn" for="btnradio14">XL</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio15" autocomplete="off">
+                            <label class="btn" for="btnradio15">XXL</label>
+                          </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn">Buy</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="modal fade" id="f2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-capitalize" id="exampleModalLabel">Embroidered fully Stitched jacket for mens</h5>
+                    
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h5 class="card-text" style="margin:0px 10px 10px 0px;">₹5,500</h5>
+                        <div class="btn-group btn-group-sm" role="group" aria-label="Basic radio toggle button group" >
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio21" autocomplete="off" checked>
+                            <label class="btn" for="btnradio21">S</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio22" autocomplete="off">
+                            <label class="btn" for="btnradio22">M</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio23" autocomplete="off">
+                            <label class="btn" for="btnradio23">L</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio24" autocomplete="off">
+                            <label class="btn" for="btnradio24">XL</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio25" autocomplete="off">
+                            <label class="btn" for="btnradio25">XXL</label>
+                          </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn">Buy</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="modal fade" id="f3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-capitalize" id="exampleModalLabel">Handmade print white kurta set and lahenga for couple (semi Stitched)</h5>
+                    
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h5 class="card-text" style="margin:0px 10px 10px 0px;">₹16,050</h5>
+                        <div class="btn-group btn-group-sm" role="group" aria-label="Basic radio toggle button group">
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio31" autocomplete="off" checked>
+                            <label class="btn" for="btnradio31">S</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio32" autocomplete="off">
+                            <label class="btn" for="btnradio32">M</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio33" autocomplete="off">
+                            <label class="btn" for="btnradio33">L</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio34" autocomplete="off">
+                            <label class="btn" for="btnradio34">XL</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio35" autocomplete="off">
+                            <label class="btn" for="btnradio35">XXL</label>
+                          </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn">Buy</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="modal fade" id="f4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-capitalize" id="exampleModalLabel">Women crochet Top</h5>
+                    
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h5 class="card-text" style="margin:0px 10px 10px 0px;">₹2,500</h5>
+                        <div class="btn-group btn-group-sm" role="group" aria-label="Basic radio toggle button group">
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio41" autocomplete="off" checked>
+                            <label class="btn" for="btnradio41">S</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio42" autocomplete="off">
+                            <label class="btn" for="btnradio42">M</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio43" autocomplete="off">
+                            <label class="btn" for="btnradio43">L</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio44" autocomplete="off">
+                            <label class="btn" for="btnradio44">XL</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio45" autocomplete="off">
+                            <label class="btn" for="btnradio45">XXL</label>
+                          </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn">Buy</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="modal fade" id="f5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-capitalize" id="exampleModalLabel">Khaki color Men's Hoodie</h5>
+                    
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h5 class="card-text" style="margin:0px 10px 10px 0px;">₹2,000</h5>
+                        <div class="btn-group btn-group-sm" role="group" aria-label="Basic radio toggle button group">
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio51" autocomplete="off" checked>
+                            <label class="btn" for="btnradio51">S</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio52" autocomplete="off">
+                            <label class="btn" for="btnradio52">M</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio53" autocomplete="off">
+                            <label class="btn" for="btnradio53">L</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio54" autocomplete="off">
+                            <label class="btn" for="btnradio54">XL</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio55" autocomplete="off">
+                            <label class="btn" for="btnradio55">XXL</label>
+                          </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn">Buy</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="modal fade" id="f6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-capitalize" id="exampleModalLabel">Cute ribbons crochet sweater</h5>
+                    
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h5 class="card-text" style="margin:0px 10px 10px 0px;">₹2,400</h5>
+                        <div class="btn-group btn-group-sm" role="group" aria-label="Basic radio toggle button group">
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio61" autocomplete="off" checked>
+                            <label class="btn" for="btnradio61">S</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio62" autocomplete="off">
+                            <label class="btn" for="btnradio62">M</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradi6o3" autocomplete="off">
+                            <label class="btn" for="btnradio63">L</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio64" autocomplete="off">
+                            <label class="btn" for="btnradio64">XL</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio65" autocomplete="off">
+                            <label class="btn" for="btnradio65">XXL</label>
+                          </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn">Buy</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="modal fade" id="f7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-capitalize" id="exampleModalLabel">Floral Print Flounce Sleeve Blouse & Ruffle Trim Cami Dress</h5>
+                    
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h5 class="card-text" style="margin:0px 10px 10px 0px;">₹3,300</h5>
+                        <div class="btn-group btn-group-sm" role="group" aria-label="Basic radio toggle button group">
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio71" autocomplete="off" checked>
+                            <label class="btn" for="btnradio71">S</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio72" autocomplete="off">
+                            <label class="btn" for="btnradio72">M</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio73" autocomplete="off">
+                            <label class="btn" for="btnradio73">L</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio74" autocomplete="off">
+                            <label class="btn" for="btnradio74">XL</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio75" autocomplete="off">
+                            <label class="btn" for="btnradio75">XXL</label>
+                          </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn">Buy</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="modal fade" id="f8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-capitalize" id="exampleModalLabel">Unity Flipped Waist Button Front Asymmetrical Hem Denim Skirt</h5>
+                    
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h5 class="card-text" style="margin:0px 10px 10px 0px;">₹2,400</h5>
+                        <div class="btn-group btn-group-sm" role="group" aria-label="Basic radio toggle button group">
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio81" autocomplete="off" checked>
+                            <label class="btn" for="btnradio81">S</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio82" autocomplete="off">
+                            <label class="btn" for="btnradio82">M</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio83" autocomplete="off">
+                            <label class="btn" for="btnradio83">L</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio84" autocomplete="off">
+                            <label class="btn" for="btnradio84">XL</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio85" autocomplete="off">
+                            <label class="btn" for="btnradio85">XXL</label>
+                          </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn">Buy</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="modal fade" id="f9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-capitalize" id="exampleModalLabel">Camel Brown Men's Overcoat with Notched Lapel and Button Closure</h5>
+                    
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h5 class="card-text" style="margin:0px 10px 10px 0px;">₹4,500</h5>
+                        <div class="btn-group btn-group-sm" role="group" aria-label="Basic radio toggle button group">
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio91" autocomplete="off" checked>
+                            <label class="btn" for="btnradio91">S</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio92" autocomplete="off">
+                            <label class="btn" for="btnradio92">M</label>
+                          
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio93" autocomplete="off">
+                            <label class="btn" for="btnradio93">L</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio94" autocomplete="off">
+                            <label class="btn" for="btnradio94">XL</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio95" autocomplete="off">
+                            <label class="btn" for="btnradio95">XXL</label>
+                          </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn">Buy</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="row w-100 me-2 fs-5">
+                <div class="col-lg">
+                    <div class="card">
+                        <img src="FL1.jpg" class="card-img-top" alt="not found">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Embroidered Top for women</h5>
+                            <div class="d-flex justify-content-start">
+                                <p class="card-text" style="margin:0px 10px 10px 0px;">₹3,800</p>
+                                <p class="card-text fw-light text-decoration-line-through">₹9,500</p>
+                            </div>
+                            <p class="text-success">60% discount</p>
+                            <div class="but d-flex justify-content-start">
+                                <button type="button" class="btn btn-primary btn-sm me-1" data-bs-toggle="modal" data-bs-target="#f1">
+                                    Buy Now
+                                  </button>
+                                <a href="#" class="btn btn-primary btn-sm">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card">
+                        <img src="FL2.jpg" class="card-img-top" alt="not found" >
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Embroidered fully Stitched jacket for mens</h5>
+                            <div class="d-flex justify-content-start">
+                                <p class="card-text" style="margin:0px 10px 10px 0px;">₹5,500</p>
+                                <p class="card-text fw-light text-decoration-line-through">₹11,000</p>
+                            </div>
+                            <p class="text-success">50% discount</p>
+                            <div class="but d-flex justify-content-start">
+                                <button type="button" class="btn btn-primary btn-sm me-1" data-bs-toggle="modal" data-bs-target="#f2">
+                                    Buy Now
+                                  </button>
+                                <a href="#" class="btn btn-primary btn-sm">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card">
+                        <img src="FL3.jpg" class="card-img-top" alt="not found">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Handmade print white kurta set and lahenga for couple
+                                (semi Stitched)</h5>
+                            <div class="d-flex justify-content-start">
+                                <p class="card-text" style="margin:0px 10px 10px 0px;">₹16,050</p>
+                                <p class="card-text fw-light text-decoration-line-through">₹53,500</p>
+                            </div>
+                            <p class="text-success">70% discount</p>
+                            <div class="but d-flex justify-content-start">
+                                <button type="button" class="btn btn-primary btn-sm me-1" data-bs-toggle="modal" data-bs-target="#f3">
+                                    Buy Now
+                                  </button>
+                            <a href="#" class="btn btn-primary btn-sm">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Winter">
+        <h2 class="head text-capitalize text-center fst-italic">Winter sale collection</h2>
+        <div class="container h-100 d-flex align-items-center">
+            <div class="row w-100 me-2 fs-5">
+                <div class="col-lg">
+                    <div class="card">
+                        <img src="FL4.jpg" class="card-img-top" alt="not found">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Women crochet Top</h5>
+                            <div class="d-flex justify-content-start">
+                                <p class="card-text" style="margin:0px 10px 10px 0px;">₹2,500</p>
+                                <p class="card-text fw-light text-decoration-line-through">₹5,000</p>
+                            </div>
+                            <p class="text-success">50% discount</p>
+                            <div class="but d-flex justify-content-start">
+                                <button type="button" class="btn btn-primary btn-sm me-1" data-bs-toggle="modal" data-bs-target="#f4">
+                                    Buy Now
+                                  </button>                                
+                                  <a href="#" class="btn btn-primary btn-sm">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card">
+                        <img src="FL6.jpg" class="card-img-top" alt="not found">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Khaki color Men's Hoodie</h5>
+                            <div class="d-flex justify-content-start">
+                                <p class="card-text" style="margin:0px 10px 10px 0px;">₹2,000</p>
+                                <p class="card-text fw-light text-decoration-line-through">₹8,000</p>
+                            </div>
+                            <p class="text-success">75% discount</p>
+                            <div class="but d-flex justify-content-start">
+                                <button type="button" class="btn btn-primary btn-sm me-1" data-bs-toggle="modal" data-bs-target="#f5">
+                                    Buy Now
+                                  </button>
+                                <a href="#" class="btn btn-primary btn-sm">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card">
+                        <img src="FL5.jpg" class="card-img-top" alt="not found">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Cute ribbons crochet sweater</h5>
+                            <div class="d-flex justify-content-start">
+                                <p class="card-text" style="margin:0px 10px 10px 0px;">₹2,400</p>
+                                <p class="card-text fw-light text-decoration-line-through">₹6,000</p>
+                            </div>
+                            <p class="text-success">60% discount</p>
+                            <div class="but d-flex justify-content-start">
+                                <button type="button" class="btn btn-primary btn-sm me-1" data-bs-toggle="modal" data-bs-target="#f6">
+                                    Buy Now
+                                  </button>
+                                <a href="#" class="btn btn-primary btn-sm">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="NewYear">
+        <h2 class="head text-capitalize text-center fst-italic">New Year sale collection</h2>
+        <div class="container h-100 d-flex align-items-center">
+            <div class="row w-100 me-2 fs-5">
+                <div class="col-lg">
+                    <div class="card">
+                        <img src="FL7.jpg" class="card-img-top" alt="not found">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Floral Print Flounce Sleeve Blouse & Ruffle Trim Cami Dress</h5>
+                            <div class="d-flex justify-content-start">
+                                <p class="card-text" style="margin:0px 10px 10px 0px;">₹3,300</p>
+                                <p class="card-text fw-light text-decoration-line-through">₹6,000</p>
+                            </div>
+                            <p class="text-success">45% discount</p>
+                            <div class="but d-flex justify-content-start">
+                                <button type="button" class="btn btn-primary btn-sm me-1" data-bs-toggle="modal" data-bs-target="#f7">
+                                    Buy Now
+                                  </button>
+                                <a href="#" class="btn btn-primary btn-sm">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card">
+                        <img src="FL8.jpg" class="card-img-top" alt="not found">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Unity Flipped Waist Button Front Asymmetrical Hem Denim Skirt</h5>
+                            <div class="d-flex justify-content-start">
+                                <p class="card-text" style="margin:0px 10px 10px 0px;">₹2,400</p>
+                                <p class="card-text fw-light text-decoration-line-through">₹4,000</p>
+                            </div>
+                            <p class="text-success">40% discount</p>
+                            <div class="but d-flex justify-content-start">
+                                <button type="button" class="btn btn-primary btn-sm me-1" data-bs-toggle="modal" data-bs-target="#f8">
+                                    Buy Now
+                                  </button>
+                                <a href="#" class="btn btn-primary btn-sm">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card">
+                        <img src="FL9.jpg" class="card-img-top" alt="not found">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Camel Brown Men's Overcoat with Notched Lapel and Button Closure</h5>
+                            <div class="d-flex justify-content-start">
+                                <p class="card-text" style="margin:0px 10px 10px 0px;">₹4,500</p>
+                                <p class="card-text fw-light text-decoration-line-through">₹9,000</p>
+                            </div>
+                            <p class="text-success">50% discount</p>
+                            <div class="but d-flex justify-content-start">
+                                <button type="button" class="btn btn-primary btn-sm me-1" data-bs-toggle="modal" data-bs-target="#f9">
+                                    Buy Now
+                                  </button>
+                                <a href="#" class="btn btn-primary btn-sm">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center py-3 text-white">
+        <p class="mb-0">&copy; 2024 J29. All Rights Reserved.</p>
+      </footer>
+</body>
+</html>
